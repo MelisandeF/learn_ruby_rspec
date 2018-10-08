@@ -10,14 +10,13 @@ def who_is_bigger(a, b, c)
 		else
 			return "c is bigger"
 		end
-	end 
+	end        
 			
 end
 
 def reverse_upcase_noLTA(word)
 	word.reverse.upcase.delete "L" "T" "A"
 end
-
 
 
 
